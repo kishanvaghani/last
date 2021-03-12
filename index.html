@@ -8,9 +8,185 @@
         <link rel="stylesheet" href="./index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            .bg-img{
+    background-image: url(./images/blur.jpeg);
+    width: 100%;
+    height: 100vh;
+    /* filter: blur(8px); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-item a:hover{
+    background-color: gold !important;
+    border-radius: 3px !important;
+}
+.navbar-inverse{
+    position: absolute ;
+    width: 100%;
+    background-color: transparent !important;
+    top:10px;
+}
+.p-abs{
+    position: absolute !important;
+    top: 10px !important;
+}
+.golden-line{
+    width: 100%;
+    height: 1vh;
+    background-color: #FFDF01;
+}
+.golden{
+    background-color: #fedc00de;
+}
+.golden1{
+    background-color: #ffdd00;
+}
+.gold{
+    background-color:gold !important;
+}
+.line-break{
+    line-break: anywhere;
+}
+.form-center{
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.f-30{
+    font-size: 30px !important;
+}
+.f-10{
+    font-size: 10px !important;
+}
+.bg-color{
+    background-color: #191b27;
+}
+.iphone{
+    /* bottom: 35%; */
+    bottom:10px;
+    position: absolute;
+    /* background-size: cover; */
+    /* top: 9px; */
+    /* left: 50%; */
+    /* transform: translate(0, -10%); */
+}
+    /* .flexible{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } */
+.icon{
+    font-size: 45px !important;
+    color:gold;
+    margin-right: 15px;
+}
+.icon-1{
+    font-size: 55px !important;
+    color:gold;
+    margin-right: 15px;
+}
+.f-family{
+    font-family: 'Times New Roman', Times, serif !important;
+
+}
+.person-img{
+    width: 50%;
+    height: auto;
+}
+.border-dark{
+    border: 7px solid black;
+}
+.bg-laptop{
+    background-image: url(./images/laptop.png);
+    width: 100%;
+    height: auto;
+
+}
+.lap-abs{
+    /* position: absolute; */
+    z-index: 1111;
+    width: auto;
+    height: auto;
+    left: 36%;
+    bottom: -7px;
+}
+.golden1:nth-child(2) { 
+    background-color:white;
+  }
+  .btn-download{
+    color: white !important;
+    background-color: black !important;
+  }
+  /* .lap_p{
+    position: absolute;
+    right: 0;
+    left: -210px;
+    top: -85px;
+    z-index: 1111;
+    overflow-x: hidden;
+  } */
+  .bg-img1{
+    background-image: url(./images/blur.jpeg);
+    width: 100%;
+    /* height: 100vh; */
+    /* filter: blur(8px); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bg-color1{
+      background-color: #10141e;
+  }
+  .bg-color2{
+    background-color: #010308;
+  }
+  .list-footer{
+      justify-content: space-evenly;
+  }
+  .input-setting{
+    background: transparent !important;
+    color: white;
+    
+  }
+  @media screen and (max-width:1200px){
+    .iphone{
+        bottom: unset !important;
+    }
+}
+  @media screen and (min-width:1140px){
+    .lap-abs{
+        position: absolute;
+    }
+}
+  @media screen and (min-width:767px){
+      .form-section{
+        position: absolute;
+        margin-top: .3rem;
+        margin-left: -1.25rem;
+      }
+  }  
+    @media screen and (min-width:1023px){
+        .form-section1{
+            top: 50%;
+            left: 50%;
+            transform: translate(-45%, 50%);
+        }        
+    }
+
+/* .iphone-img{
+
+    background-image: url(./images/iphone.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+} */
+
+        </style>
 </head>
     <body>
         <div class="main-content">
@@ -133,7 +309,7 @@
                             <div class="d-flex flex-column ">
                                 <div class="gold">
                                     <div class="container col-sm-6 line-break">
-                                        <div class="ml-5 my-5">
+                                        <div class="mx-3 my-5">
                                             <h5 class=" font-weight-bold">This Is Awesome App </h5>
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quo culpa placeat. Sunt volupt!</p>
                                         </div>
@@ -141,7 +317,7 @@
                                 </div>
                                 <div class="golden1" >
                                     <div class="container col-sm-6 line-break">
-                                        <div class="ml-5 my-5">
+                                        <div class="mx-3 my-5">
                                             <h5 class=" font-weight-bold">This Is Awesome App</h5>
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quo culpa placeat. Sunt volupt!</p>
                                             
@@ -167,10 +343,8 @@
             </div>
             <!-- PART-5 -->
             <div class="section-5 position-relative bg-color1">
-                <!-- <div class="bg-img1"></div> -->
-                <div class="">
-                    <div class="bg-img1"></div>
-                    <div class="container position-absolute flexible">
+                <div class="bg-img1">
+                    <div class="container ">
                         <div class="d-flex flex-column ">
                             <div class="my-5 text-center">
                                 <h1 class="font-weight-lighter text-white">How OUR APP WORKS?</h1>

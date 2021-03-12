@@ -1,8 +1,8 @@
 .bg-img{
-    background-image: url(./images/img.jpg);
+    background-image: url(./images/blur.jpeg);
     width: 100%;
     height: 100vh;
-    filter: blur(8px);
+    /* filter: blur(8px); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -15,7 +15,6 @@
     width: 100%;
     background-color: transparent !important;
     top:10px;
-
 }
 .p-abs{
     position: absolute !important;
@@ -55,18 +54,18 @@
 }
 .iphone{
     /* bottom: 35%; */
-    bottom: calc(35% - 100px);
+    bottom:10px;
     position: absolute;
     /* background-size: cover; */
     /* top: 9px; */
     /* left: 50%; */
     /* transform: translate(0, -10%); */
 }
-.flexible{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    /* .flexible{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } */
 .icon{
     font-size: 45px !important;
     color:gold;
@@ -118,10 +117,10 @@
     overflow-x: hidden;
   } */
   .bg-img1{
-    background-image: url(./images/earth2.jpg);
+    background-image: url(./images/blur.jpeg);
     width: 100%;
-    height: 100vh;
-    filter: blur(8px);
+    /* height: 100vh; */
+    /* filter: blur(8px); */
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -139,6 +138,11 @@
     color: white;
     
   }
+  @media screen and (max-width:1200px){
+    .iphone{
+        bottom: unset !important;
+    }
+}
   @media screen and (min-width:1140px){
     .lap-abs{
         position: absolute;
