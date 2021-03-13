@@ -11,227 +11,52 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <style>
-            .bg-img{
-    background-image: url(./images/blur.jpeg);
-    width: 100%;
-    height: 100vh;
-    /* filter: blur(8px); */
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.nav-item a:hover{
-    background-color: gold !important;
-    border-radius: 3px !important;
-}
-.navbar-inverse{
-    position: absolute ;
-    width: 100%;
-    background-color: transparent !important;
-    top:10px;
-}
-.p-abs{
-    position: absolute !important;
-    top: 10px !important;
-}
-.golden-line{
-    width: 100%;
-    height: 1vh;
-    background-color: #FFDF01;
-}
-.golden{
-    background-color: #fedc00de;
-}
-.golden1{
-    background-color: #ffdd00;
-}
-.gold{
-    background-color:gold !important;
-}
-.line-break{
-    line-break: anywhere;
-}
-.form-center{
-    position: absolute;
-    top: 50vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.f-30{
-    font-size: 30px !important;
-}
-.f-10{
-    font-size: 10px !important;
-}
-.bg-color{
-    background-color: #191b27;
-}
-.iphone{
-    /* bottom: 35%; */
-    bottom:10px;
-    position: absolute;
-    /* background-size: cover; */
-    /* top: 9px; */
-    /* left: 50%; */
-    /* transform: translate(0, -10%); */
-}
-    /* .flexible{
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    } */
-.icon{
-    font-size: 45px !important;
-    color:gold;
-    margin-right: 15px;
-}
-.icon-1{
-    font-size: 55px !important;
-    color:gold;
-    margin-right: 15px;
-}
-.f-family{
-    font-family: 'Times New Roman', Times, serif !important;
-
-}
-.person-img{
-    width: 50%;
-    height: auto;
-}
-.border-dark{
-    border: 7px solid black;
-}
-.bg-laptop{
-    background-image: url(./images/laptop.png);
-    width: 100%;
-    height: auto;
-
-}
-.lap-abs{
-    /* position: absolute; */
-    z-index: 1111;
-    width: auto;
-    height: auto;
-    left: 36%;
-    bottom: -7px;
-}
-.golden1:nth-child(2) { 
-    background-color:white;
-  }
-  .btn-download{
-    color: white !important;
-    background-color: black !important;
-  }
-  /* .lap_p{
-    position: absolute;
-    right: 0;
-    left: -210px;
-    top: -85px;
-    z-index: 1111;
-    overflow-x: hidden;
-  } */
-  .bg-img1{
-    background-image: url(./images/blur.jpeg);
-    width: 100%;
-    /* height: 100vh; */
-    /* filter: blur(8px); */
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .bg-color1{
-      background-color: #10141e;
-  }
-  .bg-color2{
-    background-color: #010308;
-  }
-  .list-footer{
-      justify-content: space-evenly;
-  }
-  .input-setting{
-    background: transparent !important;
-    color: white;
-    
-  }
-  @media screen and (max-width:1200px){
-    .iphone{
-        bottom: unset !important;
-    }
-}
-  @media screen and (min-width:1140px){
-    .lap-abs{
-        position: absolute;
-    }
-}
-  @media screen and (min-width:767px){
-      .form-section{
-        position: absolute;
-        margin-top: .3rem;
-        margin-left: -1.25rem;
-      }
-  }  
-    @media screen and (min-width:1023px){
-        .form-section1{
-            top: 50%;
-            left: 50%;
-            transform: translate(-45%, 50%);
-        }        
-    }
-
-/* .iphone-img{
-
-    background-image: url(./images/iphone.png);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0px;
-} */
-
-        </style>
 </head>
     <body>
         <div class="main-content">
             <!-- PART-1  -->
             <div class="section-1">
                 <div class="golden-line"></div>
-                <div class="bg-img"></div>
-                <nav class="navbar navbar-expand-md navbar-dark p-abs w-100 flex-wrap">
-                    <a class="navbar-brand col-lg-6 w-auto text-center" href="#">URANOS<span class="badge golden ml-1 f-10">PSD</span></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div>
-                    <div class="collapse navbar-collapse my-2 my-lg-0 ml-md-5 mx-lg-0" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-white " href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">OUR TEAM</a>
-                        </li> 
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">PORTFOLOIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">CONTACT</a>
-                        </li>   
-                        </ul>
-                        
-                    </div> 
-                    <div class="text-center form-section form-section1 mt-2 mt-sm-5"> 
-                        <p class="text-white font-weight-lighter f-30">Discover the wold of awesome </p>
-                        <h2 class="text-white">free PSD templates</h2>
-                        <form class="form-inline" action="/action_page.php">
-                            <input type="email" class="form-control input-setting mr-2 my-2" id="email" placeholder="Enter email" name="email">
-                            <input type="password" class="form-control input-setting mr-2 my-2" id="pwd" placeholder="Enter password" name="pswd">
-                            
-                            <button type="submit" class="btn btn-primary gold">Register</button>
-                        </form>
-                    </div>
-                </div>
-                </nav> 
+                <!-- <div class="bg-img"></div> -->
+                <div class="bg-img">
+                    <nav class="navbar navbar-expand-md navbar-dark w-100 flex-wrap ">
+                        <a class="navbar-brand col-lg-6 w-auto text-center" href="#">URANOS<span class="badge golden ml-1 f-10">PSD</span></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse my-2 my-lg-0 ml-md-5 mx-lg-0" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white " href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">OUR TEAM</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">PORTFOLOIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">CONTACT</a>
+                            </li>   
+                            </ul>
+                        </div> 
+                    </nav> 
+                    <div class="d-flex flex-column align-items-center mt-5">
+                        <div class="text-center my-5"> 
+                            <p class="text-white font-weight-lighter f-30">Discover the wold of awesome </p>
+                            <h2 class="text-white">free PSD templates</h2>
+                            <form class="form-inline mb-5" action="/action_page.php">
+                                <input type="email" class="form-control input-setting mr-2 my-2" id="email" placeholder="Enter email" name="email">
+                                <input type="password" class="form-control input-setting mr-2 my-2" id="pwd" placeholder="Enter password" name="pswd">
+                                
+                                <button type="submit" class="btn btn-primary gold">Register</button>
+                            </form>
+                        </div>
+                    </div>    
+                </div>      
             </div>
             <!-- PART-2 -->
             <div class=" bg-color ">
@@ -300,7 +125,7 @@
                     </div>
                 </div>
             </div>
-            <!-- PART--4    -->
+            <!-- PART--4 -->
             <div class="section-4">
                 <div class="lap ">
                     <div class="d-flex flex-wrap position-relative overflow-hidden">
@@ -315,7 +140,8 @@
                                         </div>
                                     </div >
                                 </div>
-                                <div class="golden1" >
+                                <div class="golden1">
+                                    
                                     <div class="container col-sm-6 line-break">
                                         <div class="mx-3 my-5">
                                             <h5 class=" font-weight-bold">This Is Awesome App</h5>
@@ -328,7 +154,6 @@
                                     </div >
                                 </div>    
                             </div>  
-
                         </div>
                         
                         <!-- <div class="col-sm-6 m-0 p-0 overflow-hidden bg-laptop"> -->
